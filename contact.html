@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jennie - contact</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="A website about the korean singer, Jennie Kim">
+    <meta name="keywords" content="Jennie Kim, Idol, Korean, Blackpink, kpop">
+</head>
+<body>
+    <header>
+        <h1>JENNIE KIM</h1>
+     </header>
+     <nav>
+        <ul>
+            <li><a href="index.html">BIOGRAPHY</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="media.html">MEDIA</a>
+                <ul>
+                    <li><a href="video.html">VIDEO</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+        <section class="flex"> 
+            <main>
+                <h2>CONTACT US</h2>
+                <form autocomplete="off">
+                    <fieldset>
+                        <legend>PERSONAL INFORMATION</legend>
+                        <label for="name">Name </label>
+                        <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                        <br>
+
+                        <label for="state">Which country do you reside in?</label>
+                        <select name="country" id="country">
+                        <option value="0">Select</option>
+                        <optgroup label="country">
+                        <option value="1">Korea</option>
+                        <option value="2">Japan</option>
+                        <option value="3">USA</option>
+                        <option value="4">Canada</option>
+                        </optgroup>
+                        </select>
+
+                        <label for="email" class="required">Email</label>
+                        <input type="email" name="email" id="email" required>
+                        <br>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" required>
+                        <br>
+                
+                <fieldset id="option">
+                <legend>Which contact option do you prefer?</legend>
+                <label for="emailopt">Email</label>
+                <input type="radio" name="emailopt" id="emailopt" value="email" checked>
+                <label for="phoneopt">Phone</label>
+                <input type="radio" name="phoneopt" id="phoneopt" value="phone">
+                </fieldset>
+
+                <label for="color">What color should be your merch?</label>
+                <input type="color" name="color" id="color">
+                <br>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                </fieldset>
+                <br> 
+                <button type="submit">Submit</button>
+          </form>
+     </main>
+     
+     
+     <aside>
+         <h2>ADDITIONAL INFORMATION</h2>
+         <ul>
+             <li><a href="https://www.instagram.com/jennierubyjane/?hl=en" target="_blank"  class="link">Instagram</a></li>
+             <li><a href="https://en.wikipedia.org/wiki/Jennie_(singer)" target="_blank"  class="link">Wikipedia</a></li>
+             <li><a href="https://www.ygfamily.com/artist/Main.asp?LANGDIV=K&ATYPE=2&ARTIDX" target="_blank"  class="link">Artist Page</a></li>
+             <li><a href="https://www.instagram.com/lesyeuxdenini/?hl=en" target="_blank"  class="link">Blog Account</a></li>
+         </ul>
+     </aside>
+     </section>  
+     <footer>
+         <p>
+             &copy; Ashley John 2023
+         </p>
+     </footer>
+     
+       
+   
+</body>
+</html>
